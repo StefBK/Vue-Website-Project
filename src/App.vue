@@ -12,7 +12,7 @@ import Footer from '@/components/Footer.vue';
     <Navbar/>
 
     <!-- <div class="wrapper"> -->
-      <HelloWorld msg="You did it!" />
+      <!-- <HelloWorld msg="You did it!" /> -->
 
       <!-- <nav>
         <RouterLink to="/">Home</RouterLink>
@@ -23,5 +23,9 @@ import Footer from '@/components/Footer.vue';
   </header>
 
   <RouterView />
+  <!-- <HelloWorld msg="Camille" />
+  <HelloWorld msg="Stef" />
+  <HelloWorld msg="Morgan" /> -->
+
   <Footer />
 </template>

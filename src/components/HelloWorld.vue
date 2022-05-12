@@ -8,6 +8,9 @@ defineProps({
 </script>
 
 <template>
+  <!-- Dynamique Props -->
+  <h4>{{msg}} fait du vueJS</h4>
+<!-- 
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>
@@ -15,10 +18,10 @@ defineProps({
       <a target="_blank" href="https://vitejs.dev/">Vite</a> +
       <a target="_blank" href="https://vuejs.org/">Vue 3</a>.
     </h3>
-  </div>
+  </div> -->
 </template>
 
-<style scoped>
+<!-- <style scoped>
 h1 {
   font-weight: 500;
   font-size: 2.6rem;
@@ -40,4 +43,4 @@ h3 {
     text-align: left;
   }
 }
-</style>
+</style> -->

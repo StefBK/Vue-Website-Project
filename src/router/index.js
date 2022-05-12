@@ -22,7 +22,8 @@ const router = createRouter({
       name: 'portfolio',
       component: () => import('../views/PortfolioView.vue')
     }
-  ]
+  ],
+  linkActiveClass:'active'
 })
 
 export default router
